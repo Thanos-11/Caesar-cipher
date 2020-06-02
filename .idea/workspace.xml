@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb55029-178b-4a67-af1e-3a4490548146" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decrypting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decrypting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EncryptingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EncryptingTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +62,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -77,13 +84,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.EncryptingTest.encrypt">
-    <configuration name="EncryptTest.getKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EncryptingTest.setSentence_getCorrectSentence_String">
+    <configuration name="EncryptingTest.encrypt_encodeStringProvide_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.getKey&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptingTest.encrypt_encodeStringProvide_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -98,12 +105,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncryptTest.getSentence" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptingTest.getKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.getSentence&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptingTest.getKey&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -118,12 +125,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncryptTest.test_getKey_correctKey_Int" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptingTest.getKey_getCorrectKey_int" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.test_getKey_correctKey_Int&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptingTest.getKey_getCorrectKey_int&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -138,12 +145,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncryptTest.test_getString_returnStringEntered_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptingTest.setSentence_getCorrectSentence_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.test_getString_returnStringEntered_String&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptingTest.setSentence_getCorrectSentence_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,33 +165,23 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncryptingTest.encrypt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptingTest.encrypt&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="EncryptingTest.getKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled1.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EncryptingTest" />
+      <option name="METHOD_NAME" value="getKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EncryptingTest.encrypt" />
-        <item itemvalue="Gradle.EncryptTest.test_getKey_correctKey_Int" />
-        <item itemvalue="Gradle.EncryptTest.test_getString_returnStringEntered_String" />
-        <item itemvalue="Gradle.EncryptTest.getSentence" />
-        <item itemvalue="Gradle.EncryptTest.getKey" />
+        <item itemvalue="Gradle.EncryptingTest.setSentence_getCorrectSentence_String" />
+        <item itemvalue="Gradle.EncryptingTest.encrypt_encodeStringProvide_String" />
+        <item itemvalue="Gradle.EncryptingTest.getKey_getCorrectKey_int" />
+        <item itemvalue="Gradle.EncryptingTest.getKey" />
+        <item itemvalue="JUnit.EncryptingTest.getKey" />
       </list>
     </recent_temporary>
   </component>
