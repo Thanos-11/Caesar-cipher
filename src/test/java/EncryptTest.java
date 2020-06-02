@@ -7,14 +7,16 @@ import static org.junit.Assert.*;
 public class EncryptTest {
 
     @Test
-    public void getKey() {
-        Encrypt encrypt = new Encrypt(1, "hey");
-        assertEquals(1, encrypt.getKey());
+    public void test_getString_returnStringEntered_String(){
+        Encode encode = new Encode("hi", 2);
+        String expectedOutput = "hi";
+        assertEquals(expectedOutput, encode.getSentence());
     }
 
     @Test
-    public void getSentence() {
-        Encrypt encrypt = new Encrypt(1, "hey");
-        assertEquals("hey", encrypt.getSentence());
+    public void test_getKey_correctKey_Int(){
+        Encode encode = new Encode("hi", 2);
+        int expectedOutput = 2;
+        assertEquals(expectedOutput,encode.getKey());
     }
 }
