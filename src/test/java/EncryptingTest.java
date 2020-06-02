@@ -28,4 +28,5 @@ public class EncryptingTest {
             Encode encode = new Encode("HI", 2);
             assertTrue(Integer.class.isInstance(encode.getKey()));
     }
+
 }
