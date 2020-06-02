@@ -1,8 +1,8 @@
-public class Decrypt {
+public class Decrypting {
     private static  int key;
     private static String sentence;
 
-    public Decrypt (int key, String sentence){
+    public Decrypting (int key, String sentence){
         Decode.key = key;
         Decode.sentence = sentence;
     }
