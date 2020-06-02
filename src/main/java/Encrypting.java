@@ -1,8 +1,8 @@
-public class Encrypt {
+public class Encrypting {
     private String sentence;
     private int key;
 
-    public Encrypt(String sentence, int key) {
+    public Encrypting(String sentence, int key) {
         this.sentence = sentence;
         this.key = key;
 

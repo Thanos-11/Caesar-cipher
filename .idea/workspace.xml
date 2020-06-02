@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbb55029-178b-4a67-af1e-3a4490548146" name="Default Changelist" comment="" />
+    <list default="true" id="fbb55029-178b-4a67-af1e-3a4490548146" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encrypting.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
