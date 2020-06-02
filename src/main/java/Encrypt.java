@@ -2,7 +2,7 @@ public class Encrypt {
     private String sentence;
     private int key;
 
-    public Encoding(String sentence, int key) {
+    public Encrypt(String sentence, int key) {
         this.sentence = sentence;
         this.key = key;
 
